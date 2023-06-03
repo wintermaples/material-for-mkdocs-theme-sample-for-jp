@@ -1,0 +1,22 @@
+.screen-img {
+  max-height: 600px;
+  border: 1px solid var(--md-default-fg-color);
+}
+
+.flex {
+  display: flex;
+  gap: 0 1em;
+  flex-wrap: nowrap;
+  break-inside: avoid;
+}
+
+thead {
+  background-color: var(--md-primary-fg-color--lighter);
+  color: var(--md-default-stable-color);
+}
+
+#documentAttributes {
+  text-align: right;
+  line-height: 0.8;
+  font-size: 0.5rem;
+}
